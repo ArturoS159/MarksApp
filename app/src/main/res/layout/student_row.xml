@@ -1,0 +1,223 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="150dp">
+
+    <TextView
+        android:id="@+id/index"
+        android:layout_width="72dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/fontColor"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:text="@string/index"
+        android:textAlignment="textStart"
+        android:textStyle="bold"
+        android:textColor="@color/fontColor"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="RtlCompat" />
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="72dp"
+        android:gravity="center"
+        android:text="@string/ocena"
+        android:textAlignment="textStart"
+        android:textStyle="bold"
+        android:textColor="@color/fontColor"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="RtlCompat" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="67dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="116dp"
+        android:gravity="center"
+        android:text="@string/obecno"
+        android:textColor="@color/fontColor"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="84dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="116dp"
+        android:gravity="center"
+        android:text="@string/nieobecno"
+        android:textColor="@color/fontColor"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="132dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="224dp"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:text="@string/punkty_za_wyk_ad"
+        android:textAlignment="textStart"
+        android:textColor="@color/fontColor"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="RtlCompat" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="132dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="224dp"
+        android:layout_marginTop="36dp"
+        android:gravity="center"
+        android:text="@string/punkty_za_zadanie_domowe"
+        android:textAlignment="textStart"
+        android:textColor="@color/fontColor"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="RtlCompat" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="132dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="224dp"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:text="@string/wszystkie"
+        android:textAlignment="textStart"
+        android:textStyle="bold"
+        android:textColor="@color/fontColor"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="RtlCompat" />
+
+    <TextView
+        android:id="@+id/mark"
+        android:layout_width="75dp"
+        android:layout_height="25dp"
+        android:gravity="center"
+        android:textColor="@color/fontColor"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/index"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.576" />
+
+    <TextView
+        android:id="@+id/present"
+        android:layout_width="30dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="12dp"
+        android:gravity="center"
+        android:textColor="@color/greenPresent"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/index"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.928" />
+
+    <TextView
+        android:id="@+id/lecture"
+        android:layout_width="30dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="292dp"
+        android:gravity="center"
+        android:textColor="@color/fontColor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/index"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.032" />
+
+    <TextView
+        android:id="@+id/homework"
+        android:layout_width="30dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="292dp"
+        android:gravity="center"
+        android:textColor="@color/fontColor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/index"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.288" />
+
+    <TextView
+        android:id="@+id/all"
+        android:layout_width="30dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="292dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/fontColor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/index"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.64" />
+
+    <TextView
+        android:id="@+id/absent"
+        android:layout_width="30dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="152dp"
+        android:gravity="center"
+        android:textColor="@color/redAbsent"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/index"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.928" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="50dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="36dp"
+        android:gravity="center"
+        android:text="Grupa"
+        android:textAlignment="textStart"
+        android:textColor="@color/fontColor"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="RtlCompat" />
+
+    <TextView
+        android:id="@+id/group"
+        android:layout_width="75dp"
+        android:layout_height="25dp"
+        android:gravity="center"
+        android:textColor="@color/fontColor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/index"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.288" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
